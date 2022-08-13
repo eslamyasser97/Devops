@@ -182,7 +182,7 @@ function build() {
     kubectl apply -f db-config/mongo-express.yaml
     kubectl apply -f db-config/mongo-service.yaml
     echo "great" ; sleep 10
-    minikube service mongo-express-service > db-config/mongo-HOSTNAME
+    minikube service mongo-express-service
 }
 secret_file
 mongo_configmap
