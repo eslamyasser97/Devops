@@ -186,6 +186,7 @@ function build() {
 }
 secret_file
 mongo_configmap
+replicas
 replicas= echo " $? "  
 echo $replicas
 mongo $replicas
